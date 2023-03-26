@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>test Filippovich</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img src="./assets/logo.png" alt="" class="logo" />
+          <nav>
+            <div class="navbar">
+              <div class="nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" name="checkbox"/>
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                  <li class="nav__item active"><a href="#">Бизнес</a></li>
+                  <li class="nav__item"><a href="#">О нас</a></li>
+                  <li class="nav__item"><a href="#">Цены</a></li>
+                  <li class="nav__item"><a href="#">Оформить заказ</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="main__wrapper">
+          <div class="main__content">
+            <h1 class="main__title uppercase--text">
+              <span class="blue--text">Lorem ipsum</span> dolor sit amet
+              consectetur <span class="blue--text">adipiscing</span>
+            </h1>
+            <div class="main__bottom">
+              <h2 class="main__bottom-subtitle main--bottom-text">
+                At vero eos et accusamus et iusto odio dignissimos ducimus!
+              </h2>
+              <ul class="main__bottom-list ul--dashed main--bottom-text">
+                <li class="main__bottom-li">Totam rem aperiam eaque ipsa</li>
+                <li class="main__bottom-li">
+                  Sit voluptatem accusantium doloremque laudantium
+                </li>
+                <li class="main__bottom-li">
+                  Sed ut perspiciatis, unde omnis iste natus error
+                </li>
+              </ul>
+            </div>
+            <div class="main__btns-wrapper">
+              <button class="btn main--btn-dark uppercase--text btn--left">
+                Заказать
+              </button>
+              <button class="btn main--btn-light uppercase--text">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ordering">
+      <div class="container">
+        <div class="ordering__wrapper">
+          <div class="ordering__top">
+            <h2 class="ordering__title uppercase--text">
+              Оформление<span class="blue--text"> Заказа</span>
+            </h2>
+            <h3 class="ordering__subtitle">
+              Перед заполнением формы ознакомьтесь с нашей схемой работы!
+            </h3>
+          </div>
+          <div class="ordering__middle">
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img
+                  src="./assets/order-i-mag.png"
+                  alt="search-magnifying"
+                  class="ordering__middle-item-icon"
+                />
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img
+                  src="./assets/order-i-perc.png"
+                  alt="percent"
+                  class="ordering__middle-item-icon"
+                />
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img
+                  src="./assets/order-i-doc.png"
+                  alt="docment"
+                  class="ordering__middle-item-icon"
+                />
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img
+                  src="./assets/order-i-lett.png"
+                  alt="email"
+                  class="ordering__middle-item-icon"
+                />
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img
+                  src="./assets/order-i-money.png"
+                  alt="money"
+                  class="ordering__middle-item-icon"
+                />
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="ordering__bottom">
+            <form action="submit" class="form">
+              <div class="form__wrapper">
+                <div class="select__wrapper form__row-item form__row-item1">
+                  <label for="select" class="select">
+                    <input
+                      type="radio"
+                      name="list"
+                      value="not_changed"
+                      checked
+                    />
+                    <input
+                      class="form"
+                      type="radio"
+                      name="list"
+                      value="not_changed"
+                      id="select"
+                    />
+                    <span class="arrow"></span>
+                    <div class="items">
+                      <input
+                        type="radio"
+                        name="list"
+                        value="first_value"
+                        id="list[0]"
+                      />
+                      <label for="list[0]">Sed ut perspiciatis</label>
+                      <input
+                        type="radio"
+                        name="list"
+                        value="second_value"
+                        id="list[1]"
+                      />
+                      <label for="list[1]">Nemo enim ipsam</label>
+                      <input
+                        type="radio"
+                        name="list"
+                        value="third_value"
+                        id="list[2]"
+                      />
+                      <label for="list[2]">Temporibus autem</label>
+                      <input
+                        type="radio"
+                        name="list"
+                        value="fourth_value"
+                        id="list[3]"
+                      />
+                      <label for="list[3]">Itaque earum rerum</label>
+                      <span class="select-text" id="text"
+                        >Выберете тип системы</span
+                      >
+                    </div>
+                  </label>
+                </div>
+
+                <input
+                  type="text"
+                  class="ordering__input form__row-item form__row-item2"
+                  placeholder="Ваш email"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  class="ordering__input form__row-item form__row-item3"
+                  placeholder="Ваше имя"
+                  name="name"
+                />
+                <div class="ordering__p-bar form__row-item4">
+                  <div class="ordering__p-bar-content">
+                    <p class="ordering__p-bar-text">
+                      Sed ut perspiciatis, unde omnis iste natus
+                    </p>
+                    <p class="ordering__p-bar-progress">75 %</p>
+                  </div>
+                  <div class="ordering__p-ber-wrapper">
+                    <div class="ordering__p-bar-bar"></div>
+                    <div class="ordering__p-bar-dot"></div>
+                  </div>
+                </div>
+                <div class="file-input form__row-item5">
+                  <input
+                    id="file-input"
+                    class="btn main--btn-light uppercase--text form__row-item5 btn--details"
+                    type="file"
+                    value="Прикрепить файл"
+                    name="file"
+                  />
+                  <label
+                    class="file-input__label uppercase--text"
+                    for="file-input"
+                  >
+                    <svg
+                      class="det-icon"
+                      width="18"
+                      height="21"
+                      viewBox="0 0 18 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.8125 4.60899L13.3304 1.12685C12.9174 0.713902 12.0915 0.36792 11.5 0.36792H1.50002C0.9085 0.36792 0.428589 0.847831 0.428589 1.43935V19.2965C0.428589 19.888 0.9085 20.3679 1.50002 20.3679H16.5C17.0915 20.3679 17.5714 19.888 17.5714 19.2965V6.43935C17.5714 5.84783 17.2255 5.02194 16.8125 4.60899ZM11.8572 1.88578C12.0469 1.95274 12.2366 2.05319 12.3148 2.13131L15.8081 5.62462C15.8862 5.70274 15.9866 5.89247 16.0536 6.08221H11.8572V1.88578ZM16.1429 18.9394H1.85716V1.79649H10.4286V6.43935C10.4286 7.03087 10.9085 7.51078 11.5 7.51078H16.1429V18.9394ZM4.7143 9.29649V10.0108C4.7143 10.2117 4.87055 10.3679 5.07145 10.3679H12.9286C13.1295 10.3679 13.2857 10.2117 13.2857 10.0108V9.29649C13.2857 9.0956 13.1295 8.93935 12.9286 8.93935H5.07145C4.87055 8.93935 4.7143 9.0956 4.7143 9.29649ZM12.9286 11.7965H5.07145C4.87055 11.7965 4.7143 11.9527 4.7143 12.1536V12.8679C4.7143 13.0688 4.87055 13.2251 5.07145 13.2251H12.9286C13.1295 13.2251 13.2857 13.0688 13.2857 12.8679V12.1536C13.2857 11.9527 13.1295 11.7965 12.9286 11.7965ZM12.9286 14.6536H5.07145C4.87055 14.6536 4.7143 14.8099 4.7143 15.0108V15.7251C4.7143 15.926 4.87055 16.0822 5.07145 16.0822H12.9286C13.1295 16.0822 13.2857 15.926 13.2857 15.7251V15.0108C13.2857 14.8099 13.1295 14.6536 12.9286 14.6536Z"
+                        fill="#272733"
+                      />
+                    </svg>
+                    <span>Прикрепить файл</span>
+                  </label>
+                </div>
+                <button
+                  class="btn main--btn-dark uppercase--text form__row-item6 btn--send"
+                  type="submit">
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__item footer--copy">
+            <p class="footer__copy-content">
+              &copy; 2018 «<span class="uppercase--text">LoremIpsum.net</span>»
+              Все права защищены.
+            </p>
+          </div>
+          <div class="footer__item footer--wallets footer--mid">
+            <div class="footer__item-wallets footer__content-item">
+              <img
+                src="./assets/qiwi.png"
+                alt="qiwi wallet"
+                class="footer__item-img"
+              />
+              <p class="footer__item-text"><span>Qiwi</span>wallet</p>
+            </div>
+            <div class="footer__content-item">
+              <img
+                src="./assets/yandex.png"
+                alt="yandex money"
+                class="footer__item-img"
+              />
+              <p class="footer__item-text">Yandex Money</p>
+            </div>
+            <div class="footer__content-item">
+              <img
+                src="./assets/web.png"
+                alt="web money"
+                class="footer__item-img"
+              />
+              <p class="footer__item-text">Web Money</p>
+            </div>
+          </div>
+          <div class="footer__item footer--contacts">
+            <a href="#">
+              <div class="footer__content-item">
+                <img
+                  src="./assets/email.png"
+                  alt="email"
+                  class="footer__item-img"
+                />
+                <p class="footer__item-text">info@ipsum228.com</p>
+              </div>
+            </a>
+            <div class="footer__content-item">
+              <a href="#">
+                <img
+                  src="./assets/vk.png"
+                  alt="vk"
+                  class="footer__item-img"
+                />
+                <p class="footer__item-text">Мы вконтакте</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
