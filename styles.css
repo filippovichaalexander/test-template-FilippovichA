@@ -606,6 +606,7 @@ body {
   overflow: hidden;
   width: 100%;
   cursor: pointer;
+  z-index: 5;
 }
 #select:checked ~ .items {
   border: 1px solid #3d4050;
